@@ -1,0 +1,114 @@
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+color: #fff;
+background-color: #101935;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+background-color: #1c2950;
+}
+
+.header .logo {
+display: flex;
+align-items: center;
+font-size: 1.5em;
+font-weight: bold;
+}
+
+.header .navigation ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+.header .navigation ul li {
+margin: 0 15px;
+}
+
+.header .navigation ul li a {
+color: #fff;
+text-decoration: none;
+font-size: 1em;
+}
+
+.hero {
+text-align: center;
+padding: 50px 20px;
+background: linear-gradient(135deg, #4b2d7e, #241844);
+}
+
+.hero h1 {
+font-size: 3em;
+}
+
+.hero h2 {
+font-size: 1.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+margin-bottom: 20px;
+}
+
+.hero .button {
+background-color: #7d51e4;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.hero .hero-image {
+max-width: 100%;
+margin-top: 20px;
+}
+
+.benefits {
+display: flex;
+justify-content: space-around;
+padding: 50px 20px;
+background-color: #1c2950;
+}
+
+.benefit-item {
+text-align: center;
+}
+
+.reviews {
+padding: 50px 20px;
+background-color: #2b355e;
+text-align: center;
+}
+
+.reviews .review {
+margin: 20px 0;
+}
+
+.order {
+padding: 50px 20px;
+background-color: #101935;
+text-align: center;
+}
+
+.order-form input, .order-form button {
+display: block;
+width: 80%;
+margin: 10px auto;
+padding: 10px;
+border-radius: 5px;
+border: none;
+}
+
+.footer {
+padding: 20px;
+background-color: #1c2950;
+text-align: center;
+}
+</style>
